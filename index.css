@@ -1,0 +1,33 @@
+#cuadro {
+    display: grid;
+    grid-template-columns: 20% 10% 10% 10% 10% 10% 10%;
+    border: 1px solid black;
+    padding-left: 20%;
+    padding-right:20%;
+}
+
+.foto{
+    width: 150px;
+}
+.celda {
+    border: 1px solid black;
+}
+
+@media (max-width: 630px) {
+    #cuadro {
+        display: grid;
+        grid-template-columns: 28% 8% 25% 20% 0% 0% 20%;
+        padding-left: 5%;
+        padding-right:5%;
+    }
+
+    .oculta {
+        visibility: hidden;
+    }  
+     
+    .foto{
+        width: 80px;
+    }
+    
+  }
+
